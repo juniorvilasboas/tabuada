@@ -1,0 +1,16 @@
+<%- include('../partials/header') %>
+  <div class="starter-template">
+    <h1>Tabuada do número <%= num %></h1>
+    <table class="table table-striped table-bordered table-hover">
+      <% tabuadas.map(item => { %>
+        <tr>
+          <td><%= item.num %></td>
+          <td>&nbsp;x&nbsp;</td>
+          <td><%= item.i %></td>
+          <td>&nbsp;=&nbsp;</td>
+          <td><%= item.resultado %></td>
+        </tr>
+      <% }) %>
+    </table>
+  </div>
+<%- include('../partials/footer') %>
