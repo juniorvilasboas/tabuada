@@ -20,3 +20,7 @@
   <a href="https://www.linkedin.com/in/moacyrsantana" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   
 </div>
+
+##
+
+### Projeto foi publicado no Vercel, acesse  <a href="https://tabuada-one.vercel.app/">Aqui</a> 👋

@@ -1,7 +1,7 @@
 <%- include('../partials/header') %>
   <div class="starter-template">
     <h1>Escolha um número</h1>
-    <ul>
+    <ul style="list-style: none;">
       <% numeros.map(i => { %>
         <li><a href="/tabuada/do/<%= i %>">Tabuada do <%= i %></a></li>
       <% }) %>
