@@ -10,7 +10,7 @@ const tabuada = (req, res) => {
   const tabuadas = []
   const num = req.params.num
 
-  for(let i=0; i<=10; i++) {
+  for(let i=0; i<=100; i++) {
     tabuadas.push({
       num,
       i,
